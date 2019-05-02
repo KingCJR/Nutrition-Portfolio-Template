@@ -38,7 +38,7 @@
     }
 /*-- Landing Page - Middle Section --*/
   .MiddleContent{padding:50px 0px 30px 0px !important; text-align:center;}
-  .MiddleContent .MiddleContent-HeaderBlock{width:100%; margin:0px;}
+  .MiddleContent .MiddleContent-HeaderBlock{width:100%; padding:0px;margin:0px;}
 /*-- Middle Section - Row --*/
   .MiddleContent .MiddleContent-Block .MiddleContent-Row{padding:20px 0px;}
   .MiddleContent .MiddleContent-Block .MiddleContent-Row .Row-LeftCol{padding:20px 0px;}
