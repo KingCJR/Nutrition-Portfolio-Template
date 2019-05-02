@@ -1,7 +1,6 @@
 /*-- Media --*/
-@media screen (max-width:1980px){}
 
-@media screen and (max-width:900px) and (min-width:460px) {
+@media screen and ( max-width: 900px ) {
   .navbar-Section .navbar .navbar-container .collapse .nav{
     display:block; text-align:left; padding:10px 0px;
     }
