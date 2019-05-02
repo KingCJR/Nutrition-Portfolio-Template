@@ -1,4 +1,5 @@
 /*-- Media --*/
+@media screen (max-width:1980px){}
 
 @media screen and (max-width:900px) and (min-width:460px) {
   .navbar-Section .navbar .navbar-container .collapse .nav{
