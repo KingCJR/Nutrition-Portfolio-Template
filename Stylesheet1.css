@@ -477,7 +477,7 @@
       text-align: center;}
 /*-- Media --*/
 
-@media ( min-width: 480 ) {
+@media screen and ( min-width: 480 ) {
   .navbar-Section .navbar .navbar-container .collapse .nav{
     display:block; text-align:left; padding:10px 0px;
     }
