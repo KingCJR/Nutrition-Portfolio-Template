@@ -1,0 +1,552 @@
+/*-- Media --*/
+
+@media screen and ( max-width: 900px ) {
+  .navbar-Section .navbar .navbar-container .collapse .nav{
+    display:block; text-align:left; padding:10px 0px;
+    }
+  /*--Landing Page - Hero Banner--*/
+  .LandingBanner{ width:100%; }
+  .LandingBanner .LandingBanner-Block .LandingBanner-BlockBox .LandingBanner-TextBlock{
+    text-align:center;left:0%;top:0%;transform:translate(0%,100%);
+    }
+  .LandingBanner .LandingBanner-Block .LandingBanner-BlockBox .LandingBanner-TextBlock #TextBlock-Header{
+    font-size:8.5vw;
+    }
+  .LandingBanner .LandingBanner-Block .LandingBanner-BlockBox .LandingBanner-TextBlock #TextBlock-Description{
+    font-size:4.5vw;
+    }
+/*-- Introduction Section --*/
+    .IntroSection{padding:50px 0px 25px 0px;}
+    .IntroSection .IntroSection-Block{padding:0px;width:90%;}
+/*-- About Section --*/
+  .AboutContent{padding:0px 0px 40px 0px;}
+  .AboutContent .AboutContent-Block .AboutContent-Row .AboutContent-RightCol .RightCol-InnerCol{
+    padding:0px;
+    }
+  .AboutContent .AboutContent-Block .AboutContent-Row .AboutContent-RightCol .RightCol-InnerCol #RightCol-IntroLink{
+    text-align:center;
+    }
+/*-- Landing Page - Quote Section --*/
+  .BreakSection .BreakSection-Block{
+    width:100%; padding:0px 0px;
+    }
+  .BreakSection .BreakSection-Block .SectionHeader{
+    padding:0px 0px 10px 0px;
+    }
+  .BreakSection .BreakSection-Block .SectionHeader #SectionHeader-Title{
+    font-size:3.5vw;
+    }
+/*-- Landing Page - Middle Section --*/
+  .MiddleContent{padding:50px 0px 30px 0px !important; text-align:center;}
+  .MiddleContent .MiddleContent-HeaderBlock{width:100%; margin:0px;}
+/*-- Middle Section - Row --*/
+  .MiddleContent .MiddleContent-Block .MiddleContent-Row{padding:20px 0px;}
+  .MiddleContent .MiddleContent-Block .MiddleContent-Row .Row-LeftCol{padding:20px 0px;}
+  .MiddleContent .MiddleContent-Block .MiddleContent-Row .Row-RightCol{padding:20px 0px;}
+/*-- Carousel Section --*/
+  .CarouselSection{margin:0px;}
+  .CarouselSection .CarouselBlock-Header{width:100%; margin:0px;}
+  .CarouselSection .CarouselBlock{width:90%; padding: 0px;}
+  .CarouselSection .CarouselBlock .CarouselBlock-Slide{
+    padding:0px 0px;
+    }
+  .CarouselSection .CarouselBlock .CarouselBlock-Slide .Slide-item{
+    padding:0px 10px; margin:0px; width:80%;
+    }
+  .CarouselSection .CarouselBlock .CarouselBlock-Slide .Slide-item .Slide-itemBottom{
+    visibility: hidden;display: none;clear: both;
+    }
+  .CarouselSection .CarouselBlock .CarouselBlock-Slide .slide-arrow{
+    visibility: hidden; display:none; clear: both;
+    }
+/*-- Footer Section --*/
+  .FooterSection .FooterBlock{height:auto; width:100%;}
+  .FooterSection .FooterBlock .Block-LeftCol{padding:10px 0px;}
+  .FooterSection .FooterBlock .Block-LeftCol #LeftCol-Title{margin:0px 0px;}
+  .FooterSection .FooterBlock .Block-LeftCol .ContactForm{padding:0px;}
+  .FooterSection .FooterBlock .Block-RightCol{padding:10px 0px;}
+  .FooterSection .FooterBlock .Block-RightCol .RightCol-LinkBlock .LinkBlock .LinkBlock-Links{
+    padding:10px 0px !important;
+    }
+  .FooterSection .FooterBlock .Block-RightCol .RightCol-LinkBlock #LinkBlock-Title{
+    margin:0px;
+    }
+}
+
+
+/*------------------------------*/
+/*----- Navigation Section -----*/
+.navbar-Section{margin-bottom:-20px;}
+  .navbar{background-color:#fff;}
+    .navbar-container{}
+      .navbar-toggle .icon-bar{height:4px; background-color:#054551;}
+    .navbar-collapse.nav{
+      text-align:left;
+      display:block;
+      }
+    .nav{
+      display: flex; /* displays flex-items (children) inline */
+      justify-content: center; /* centers them horizontally */
+      padding:5px 0px;
+      width:100%;
+      }
+      .active{background-color:#d1d1d1;}
+      .navitem{float: none;display: inline-block;}
+        #navitem-link{
+          color:rgb(3, 33, 41);
+          padding:10px 20px;
+          margin:0px;
+          text-transform:uppercase;
+          letter-spacing:0.23px;
+          font: 600 16px/1.2em Trebuchet,arial,sans-serif;
+          }
+        #navitem-link:hover{
+          color:#fff;
+          padding:10px 20px;
+          margin:0px;
+          text-transform:uppercase;
+          letter-spacing:0.23px;
+          font: 600 16px/1.2em Trebuchet,arial,sans-serif;
+          background-color:#054551;
+          }
+/*--------------------------------*/
+/*----- Landing Banner Block -----*/
+.LandingBanner{
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height:95vh;
+  overflow: hidden;
+  position: relative;
+  background-attachment:fixed;
+  background-image:url("./NTP-pic/pexel-9523561.jpg");
+  }
+  .LandingBanner-Block{ height:100vh; padding:0px 0px; background-color: rgba(0,0,0,0.5);}
+    .LandingBanner-TextBlock{
+      text-align:center;
+      position:absolute;
+      left:50%; top:50%;
+      transform: translate(-50%,-100%);
+      }
+      #TextBlock-Header{
+        color:#f1f1f1;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        font: 600 30px/1.2em Trebuchet,arial,sans-serif;
+        }
+      #TextBlock-Description{
+        color:#f1f1f1;
+        letter-spacing:.23px;
+        font: 400 16px/1.2em Trebuchet,arial,sans-serif;
+        }
+.Index-Body{background-color:#fff;}
+/*------------------------------------*/
+/*---- Landing-Page Intro Section ----*/
+.IntroSection{padding:100px 0px 50px 0px;}
+  .IntroSection-Block{text-align:center; width:60%;}
+    #Intro-Header{
+      color:#747474;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      border-bottom:3px solid #12820c;
+      font: 500 24px/1.5em Trebuchet,arial,sans-serif;
+      }
+    #Intro-HeaderText{
+      color:#747474;
+      letter-spacing:0.25px;
+      font: 400 20px/1.5em calibri,arial,sans-serif;
+      }
+/*------------------------------------*/
+/*---- Landing-Page About Section ----*/
+.AboutContent{padding:150px 0px;}
+.AboutContent-Block{width:100%;}
+  .AboutContent-Row{padding:0px 20px;}
+    /*-About Section-Left Column(Image)-*/
+    .AboutContent-LeftCol{padding:20px;}
+      .AboutContent-LeftCol img{
+        width:100%;
+        height:350px;
+        display:block;
+        padding:0px 50px;
+        margin-left:auto;
+        margin-right: auto;
+        background-color:#d1d1d1;
+        }
+    /*-About Section-Right Column(Text Content)-*/
+    .AboutContent-RightCol{padding:20px;}
+      .RightCol-InnerCol{padding:0px 20px;}
+        #RightCol-IntroTitle{
+          color:#333;
+          border-bottom:3px solid #054551;
+          letter-spacing:2px;
+          text-transform:uppercase;
+          font: 500 24px/1.25em calibri,arial,sans-serif;
+          }
+        #RightCol-IntroContent{
+          padding-bottom:30px;
+          color:#747474;
+          letter-spacing:0.25px;
+          font: 400 16px/1.5em calibri,arial,sans-serif;
+          }
+        #RightCol-IntroLink a{
+          color:#fff;
+          padding:10px 20px;
+          letter-spacing:2px;
+          text-transform:uppercase;
+          text-decoration:none;
+          background-color:#12820c;
+          font: 500 16px/2em Trebuchet,arial,sans-serif;
+          }
+          #RightCol-IntroLink a:hover{
+            color:#fff;
+            padding:10px 20px;
+            letter-spacing:2px;
+            text-transform:uppercase;
+            text-decoration:none;
+            background-color:#054551;
+            font: 500 16px/2em Trebuchet,arial,sans-serif;
+            }
+/*------------------------------------*/
+/*---- Landing-Page Break Section ----*/
+.BreakSection{
+  padding:50px 0px;
+  background-color:#fff;
+  background-color:rgba(12, 81, 100,0.75);
+  }
+  .BreakSection-Block{width: 60%;}
+    .SectionHeader{
+      color:#fff;
+      padding:0px 25px;
+      text-align:center;
+      }
+      #SectionHeader-Title{
+        letter-spacing:0px;
+        font: 600 24px/1.2em Trebuchet,arial,sans-serif;
+        }
+      #SectionHeader-Text{
+        letter-spacing:0.25px;
+        font: 400 16px/1.2em Trebuchet,arial,sans-serif;
+        padding-bottom:20px;
+        }
+        #SectionHeader-Link a{
+          color:#fff;
+          padding:10px 20px;
+          letter-spacing:2px;
+          text-transform:uppercase;
+          text-decoration:none;
+          background-color:#12820c;
+          font: 400 16px/1.35em Trebuchet,arial,sans-serif;
+          }
+        #SectionHeader-Link a:hover{
+          color:#fff;
+          padding:10px 20px;
+          letter-spacing:2px;
+          text-transform:uppercase;
+          text-decoration:none;
+          background-color:#054551;
+          font: 400 16px/1.35em Trebuchet,arial,sans-serif;
+          }
+/*-------------------------------------------------*/
+/*----- Landing-Page Middle Content(Portfolio)-----*/
+.MiddleContent{
+  padding:75px 0px;
+  }
+  .MiddleContent-HeaderBlock{
+    text-align:center;
+    width:60%;
+    margin:0px 0px 40px 0px;
+    }
+    #MiddleContent-Header{
+      color:#747474;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      border-bottom:3px solid #12820c;
+      font: 500 20px/1.5em Trebuchet,arial,sans-serif;
+      }
+    #MiddleContent-HeaderText{
+      color:#747474;
+      letter-spacing:0.25px;
+      font: 400 16px/1.5em calibri,arial,sans-serif;
+      }
+  .MiddleContent-Block{width:100%;}
+    .MiddleContent-Row{padding:0px 20px;}
+      .Row-LeftCol, .Row-RightCol{padding:20px;}
+        .Row-LeftCol img, .Row-RightCol img{
+          width:100%;
+          height:300px;
+          display:block;
+          margin-left:auto;
+          margin-right: auto;
+          }
+      .LeftCol-InnerCol,.RightCol-InnerCol{}
+        .LeftCol-InnerCol h4,.RightCol-InnerCol h4{
+          color:#333;
+          border-bottom:3px solid #054551;
+          letter-spacing:2px;
+          text-transform:uppercase;
+          font: 500 24px/1.25em calibri,arial,sans-serif;
+          }
+        .LeftCol-InnerCol p,.RightCol-InnerCol p{
+          color:#747474;
+          letter-spacing:0.25px;
+          font: 400 16px/1.5em calibri,arial,sans-serif;
+          }
+        .InnerCol-List{padding-left:0px; padding:10px 0px 50px; }
+          .InnerCol-List li{list-style-type:none;}
+            .InnerCol-List li a{
+              color:#333;
+              font: 500 16px/2em Open sans,arial,sans-serif;
+              }
+            .InnerCol-List li a:hover{
+              color:#333;
+              text-decoration:none;
+              width:100%;
+              border-bottom:3px solid #054551;
+              font: 500 16px/2em Open sans,arial,sans-serif;
+              }
+      #RightCol-Link{
+        color:#fff;
+        padding:10px 20px;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        text-decoration:none;
+        background-color:#12820c;
+        font: 400 16px/1.35em Trebuchet,arial,sans-serif;
+        }
+      #RightCol-Link:hover{
+        color:#fff;
+        padding:10px 20px;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        text-decoration:none;
+        background-color:#054551;
+        font: 400 16px/1.35em Trebuchet,arial,sans-serif;
+        }
+/*----------------------------------------------*/
+/*----- Landing-Page Carousel Slide(Recipe)-----*/
+.CarouselSection{padding:150px 0px;}
+  .CarouselBlock-Header{ padding-bottom:20px; width:60%;}
+    .Header-Row{text-align:center;}
+      #Header-Title{
+        color:#474747;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        border-bottom:3px solid #12820c;
+        font: 500 20px/1.5em Trebuchet,arial,sans-serif;
+        }
+      #Header-TitleText{
+        color:#747474;
+        letter-spacing:0.25px;
+        font: 400 16px/1.5em calibri,arial,sans-serif;
+        }
+  .CarouselBlock{padding:80px 0px; width:100%;}
+    .CarouselBlock-Slide{padding:0px 10px;}
+      .Slide-item{padding:0px 10px; position: relative;}
+      .Slide-item a{}
+        .img-responsive{
+          opacity: 1;
+          display: block;
+          width: 100%;
+          height: auto;
+          position:relative;
+          transition: .5s ease;
+          backface-visibility: hidden;
+          }
+        .Slide-itemInner{
+          transition: .5s ease;
+          opacity: 0;
+          width:100%;
+          bottom:0;
+          transform: translate(0%, -125%);
+          -ms-transform: translate(-50%, -50%);
+          }
+        .Slide-itemBottom{
+          position:absolute;
+          top:80%;
+          bottom:0;
+          left:0; right:0;
+          background-color: #f1f1f1;
+          overflow: hidden;
+          width: auto;
+          height:0;
+          border:3px solid #054551;
+          margin:-10px 10px 0px 10px!important;
+          transition: .5s ease;
+          }
+        .Slide-item:hover .img-responsive{opacity:0.75;}
+        .Slide-item:hover .Slide-itemInner{opacity:1;}
+          #itemInner-Title{
+            background-color:#054551;
+            color:#f1f1f1;
+            font-size: 20px;
+            text-align:center;
+            padding: 12px 0px;
+            }
+        .Slide-item:hover .Slide-itemBottom{
+          bottom: 0;
+          height: 20%;
+          position:absolute;
+          border:3px solid #054551;
+          margin: -10px 10px!important;
+          border-radius:0px 0px 10px 10px;
+          }
+          #itemBottom-Text{
+            white-space: nowrap;
+            color: #a1a1a1;
+            font-size: 14px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+          }
+      /*----- Carousel Slider - arrows -----*/
+      .slide-arrow{position: absolute; top: 30%; width: 30px; height: 80px; z-index:4; margin-top: 0px;}
+        .prevarrow{left: -20px; border: none; outline: none; opacity:0.8; border-radius:20px 0px 0px 20px; background-color:#fff;}
+        .nextarrow{right: -20px; border: none; outline: none; opacity:0.8; border-radius:0px 20px 20px 0px; background-color:#fff;}
+          .fas.fa-chevron-left:hover, .fas.fa-chevron-right:hover{color:#03b82c;background-color:#fff; }
+          .fas.fa-chevron-left,.fas.fa-chevron-right{color:#16ABC7; font-size:25px;}
+  /*----- Carousel Block - Footer -----*/
+  .CarouselBlock-Footer{text-align:center;padding-top:50px;}
+    #Footer-LinkButton{
+      color:#f1f1f1;
+      padding:10px 20px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      text-decoration:none;
+      background-color:#12820c;
+      font: 500 16px/2em Trebuchet,arial,sans-serif;
+      }
+    #Footer-LinkButton:hover{
+      color:#f1f1f1;
+      padding:10px 20px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      text-decoration:none;
+      background-color:#054551;
+      font: 500 16px/2em Trebuchet,arial,sans-serif;
+      }
+
+/*------------------------------*/
+/*----Global Footer Section ----*/
+.FooterSection{ padding-top:40px;background-color:rgba(3, 33, 41,0.25);}
+  .FooterBlock{width: 70%;}
+    .Block-LeftCol{ padding: 20px 0px;}
+      #LeftCol-Title{
+        margin: 0px 40px;
+        padding:0px 0px 4px 0px;
+        text-transform:uppercase;
+        font: 500 20px/1em Trebuchet,arial,sans-serif;
+        border-bottom:#12820c solid 3px;
+        }
+        .far{padding:0px 5px;}
+      /*---- Contact Form ----*/
+      .ContactForm{padding:5px 40px;}
+        #ContactForm-Title{
+          color:#474747;
+          margin-bottom:-2px;
+          padding:0px;
+          letter-spacing:.23px;
+          text-transform:uppercase;
+          font: 400 14px/2em Trebuchet,arial,sans-serif;
+          }
+        #name, #Email,#Contact-Subject{
+          width: 100%;
+          padding: 4px 4px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          }
+        #ContactForm-Submit{
+          margin-top:15px;
+          color:#f1f1f1;
+          font-size:16px;
+          padding:6px 15px;
+          cursor:pointer;
+          outline:none;
+          border:none;
+          text-align:center;
+          border-radius:5px;
+          background-color:#12820c;
+          }
+          #ContactForm-Submit:hover{
+            margin-top:15px;
+            color:#f1f1f1;
+            font-size:16px;
+            padding:6px 15px;
+            text-align:center;
+            outline:none;
+            border-radius:5px;
+            background-color:#043602;
+            }
+    .Block-RightCol{padding:20px 0px;}
+      .RightCol-LinkBlock{}
+        #LinkBlock-Title{
+          margin: 0px 40px;
+          padding:0px 0px 4px 0px;
+          text-transform:uppercase;
+          font: 500 20px/1em Trebuchet,arial,sans-serif;
+          border-bottom:#12820c solid 3px;
+          }
+        .LinkBlock{}
+        .LinkBlock-Links{
+          padding:5px 40px;
+          display:block;
+          list-style-type:none;
+          }
+          #Links-Name{
+            padding:0px 0px 1px;
+            }
+            #Links-Name a{
+              color:#474747;
+              letter-spacing:0.23px;
+              text-transform:uppercase;
+              font: 400 14px/2em Trebuchet,arial,sans-serif;
+              text-decoration:none;
+              }
+            #Links-Name a:hover{
+              color:#474747;
+              letter-spacing:0.23px;
+              text-transform:uppercase;
+              font: 400 14px/2em Trebuchet,arial,sans-serif;
+              border-bottom:3px solid #054551;
+              text-decoration:none;
+              }
+  /*---- Copyright----*/
+  .FooterBlock-BottomRow{
+    padding:20px 0px 5px 0px;
+    text-align:center;
+    background: #0c5164;
+    }
+    .TopBlock-Icons{
+      display:inline-block;
+      align-items:center;
+      }
+      .TopBlock-Icons i{
+        display:inline-block;
+        text-align:center;
+        list-style-type:none;
+        }
+    .fab{
+      color:#f1f1f1;
+      font-size:20px;
+      margin:5px 10px;
+      padding:10px 10px;
+      border-radius:25px;
+      background:#054551;
+      }
+    .fab:hover{
+      color:#054551;
+      font-size:20px;
+      padding:10px 10px;
+      border-radius:25px;
+      background:#fff;
+      }
+    .fas{padding:0px 5px;}
+    #BottomRow-PageInfo{
+      color: #f1f1f1;
+      padding:5px 0px -5px 0px;
+      font: 400 16px/1em Trebuchet,arial,sans-serif;
+      text-align: center;}
